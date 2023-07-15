@@ -10,9 +10,9 @@ function Contacts() {
     const [displayEmail, setDisplayEmail] = useState(false);
     const [displayMsg, setDisplayMsg] = useState(false);
 
-    console.log(name, "name");
-    console.log(email, "email");
-    console.log(message, "message");
+    // console.log(name, "name");
+    // console.log(email, "email");
+    // console.log(message, "message");
 
     const submitEverything = () => {
         if (!message) setDisplayMsg(true);
@@ -26,7 +26,7 @@ function Contacts() {
         <>
             <h1>contact me</h1>
             Name: <input onChange={(e) => setName(e.target.value)}></input>
-            {displayName && <div>please type something for message</div>}
+            {displayName && <div>please type something for Your Name</div>}
             <br />
             email: <input onChange={(e) => setEmail(e.target.value)}></input>
             {displayEmail && <div>please type something for email</div>}
