@@ -1,4 +1,5 @@
 import { useState } from "react";
+import  {validate}  from "email-validator";
 
 let msg = [];
 
@@ -9,6 +10,7 @@ function Contacts() {
     const [displayName, setDisplayName] = useState(false);
     const [displayEmail, setDisplayEmail] = useState(false);
     const [displayMsg, setDisplayMsg] = useState(false);
+    
 
     // console.log(name, "name");
     // console.log(email, "email");
@@ -20,8 +22,10 @@ function Contacts() {
         if (!name) setDisplayName(true);
         if ((message, email, name)) {
             msg.push([name, email, message]);
+            
         }
     };
+    console.log(validate(email))
     return (
         <>
             <h1>contact me</h1>
@@ -30,6 +34,7 @@ function Contacts() {
             <br />
             email: <input onChange={(e) => setEmail(e.target.value)}></input>
             {displayEmail && <div>please type something for email</div>}
+            {email && !(validate(email)) && <div>Not A Valid Email</div>}
             <br />
             messages:{" "}
             <input onChange={(e) => setMessage(e.target.value)}></input>

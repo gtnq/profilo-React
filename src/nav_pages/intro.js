@@ -1,7 +1,10 @@
+import pic from "../data/pic/avatar.png"
+
 function Intro() {
     return (
         <>
             <h1>About Me</h1>
+            <img src = {pic} alt = 'me' />
             <p>
                 Hi there, my name is Tony and I'm a fresh graudate from
                 University of Oregon. <br />In my free time, I enjoy going on a road
