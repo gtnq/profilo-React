@@ -24,6 +24,7 @@ function Contacts() {
             msg.push([name, email, message]);
             
         }
+        console.log('update something')
     };
     console.log(validate(email))
     return (
