@@ -2,7 +2,7 @@
   "name": "hw20",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://gtnq.github.com/profilo-React",
+  "homepage": "https://gtnq.github.io/profilo-React/",
 
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
