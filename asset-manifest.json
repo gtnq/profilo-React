@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/profilo-React/static/css/main.c9de91c2.css",
-    "main.js": "/profilo-React/static/js/main.5e17debe.js",
+    "main.js": "/profilo-React/static/js/main.a8c7a3a8.js",
     "static/media/recipe.png": "/profilo-React/static/media/recipe.80720ce511b4c0d31f0d.png",
     "static/media/avatar.png": "/profilo-React/static/media/avatar.60e774c6071a02772571.png",
+    "static/media/ecommerce.png": "/profilo-React/static/media/ecommerce.12847b1dbe409b7a68a0.png",
     "static/media/movie.png": "/profilo-React/static/media/movie.a565620299643d7c57c5.png",
     "static/media/note.png": "/profilo-React/static/media/note.46ce56977470d35baec0.png",
     "static/media/weather.png": "/profilo-React/static/media/weather.9a64b5cd3544dd8b2a85.png",
@@ -11,10 +12,10 @@
     "static/media/scheduler.png": "/profilo-React/static/media/scheduler.131d407740df0fddb58b.png",
     "index.html": "/profilo-React/index.html",
     "main.c9de91c2.css.map": "/profilo-React/static/css/main.c9de91c2.css.map",
-    "main.5e17debe.js.map": "/profilo-React/static/js/main.5e17debe.js.map"
+    "main.a8c7a3a8.js.map": "/profilo-React/static/js/main.a8c7a3a8.js.map"
   },
   "entrypoints": [
     "static/css/main.c9de91c2.css",
-    "static/js/main.5e17debe.js"
+    "static/js/main.a8c7a3a8.js"
   ]
 }
