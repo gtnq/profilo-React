@@ -4,6 +4,7 @@ import recipe from "./data/pic/recipe.png";
 import scheduler from "./data/pic/scheduler.png";
 import trivia from "./data/pic/trivia.png";
 import weather from "./data/pic/weather.png";
+import ecommerce from "./data/pic/ecommerce.png";
 
 function Project() {
     return (
@@ -51,6 +52,14 @@ function Project() {
                     </a>
                     <br />
                     <a href="https://github.com/gtnq/Little_Calender">Calendar</a>
+                </div>
+                <div>
+                    <a href="https://ecommerce-cyber-16f7a3813a9f.herokuapp.com/">
+                        <img src = {ecommerce} alt="ecommerce"></img>
+                    </a>
+                    <br />
+                    <a href="https://github.com/Slfdspln/ShopCyber">Ecommerce</a>
+                  
                 </div>
             </div>
         </>
